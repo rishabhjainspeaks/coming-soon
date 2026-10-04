@@ -29,6 +29,19 @@ p.sub{font-size:17.5px;color:var(--gray);max-width:460px;margin:0 auto 30px;line
 .cta:hover{background:#0055b0}
 
 footer{border-top:1px solid var(--line);padding:22px 0;background:var(--bg2);text-align:center;font-size:12px;color:var(--gray)}
+.sec{background:var(--bg2);padding:90px 22px}
+.sec .wrap{max-width:980px;margin:0 auto}
+.m-kicker{font-size:14px;font-weight:700;color:var(--gray);text-align:center;margin-bottom:12px}
+.sec h2{font-size:clamp(30px,5vw,44px);font-weight:800;letter-spacing:-.028em;text-align:center;line-height:1.1;margin-bottom:14px}
+.sec .lead{font-size:18px;color:var(--gray);text-align:center;max-width:560px;margin:0 auto 44px;line-height:1.55}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-bottom:40px}
+@media(max-width:720px){.cards{grid-template-columns:1fr}}
+.card{background:#fff;border-radius:22px;padding:30px 28px}
+.card .n{font-size:13px;font-weight:700;color:var(--gray);margin-bottom:10px}
+.card h3{font-size:20px;font-weight:800;letter-spacing:-.02em;margin-bottom:8px}
+.card p{font-size:15px;color:var(--gray);line-height:1.55}
+.mbtn{display:inline-block;background:var(--blue);color:#fff;font-weight:700;font-size:15px;padding:12px 26px;border-radius:999px}
+.mbtn.ghost{background:transparent;color:var(--blue);margin-left:6px}
 </style>
 </head>
 <body>
@@ -36,6 +49,7 @@ footer{border-top:1px solid var(--line);padding:22px 0;background:var(--bg2);tex
   <div class="logo">Rishabh Jain</div>
   <div class="tabs">
     <span class="tab on">Home</span>
+    <a class="tab" href="mentorship.html">Mentorship</a>
     <a class="tab" href="blog.html">Blog</a><a class="tab" href="pdf-studio.html">Tools</a>
     <a class="tab" href="contact.html">Get in touch</a>
   </div>
@@ -49,7 +63,20 @@ footer{border-top:1px solid var(--line);padding:22px 0;background:var(--bg2);tex
     <a class="cta" href="contact.html">Get in touch</a>
   </div>
 </main>
-
+<div class="sec"><div class="wrap">
+  <div class="m-kicker">Mentorship</div>
+  <h2>The attempt is not the identity.</h2>
+  <p class="lead">Psychology, accountability and a plan you will actually follow. For CA students in the hardest phase of the journey.</p>
+  <div class="cards">
+    <div class="card"><div class="n">01</div><h3>Mindset first</h3><p>The exam cycle breaks confidence before it breaks preparation. We fix the story you tell yourself.</p></div>
+    <div class="card"><div class="n">02</div><h3>Accountability</h3><p>Regular check-ins and honest reviews. Consistency beats intensity.</p></div>
+    <div class="card"><div class="n">03</div><h3>The long game</h3><p>Clarity on what the CA unlocks, and how to position for it.</p></div>
+  </div>
+  <div style="text-align:center">
+    <a class="mbtn" href="mentorship.html">Explore mentorship</a>
+    <a class="mbtn ghost" href="contact.html">Get in touch</a>
+  </div>
+</div></div>
 <footer>© 2026 Rishabh Jain · rishabhjainspeaks.com</footer>
 </body>
 </html>
